@@ -26,4 +26,4 @@ gem 'racc', '~> 1.4', '>= 1.4.14'
 
 # upgrade Ruby v2.7 tp v3.2 on Vercel
 source "https://rubygems.org"
-ruby "~> 3.2.x"
+ruby "~> 3.1.2"
