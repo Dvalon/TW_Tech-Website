@@ -23,3 +23,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'racc', '~> 1.4', '>= 1.4.14'
+
+# upgrade Ruby v2.7 tp v3.2 on Vercel
+source "https://rubygems.org"
+ruby "~> 3.2.x"
