@@ -25,5 +25,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'racc', '~> 1.4', '>= 1.4.14'
 
 # upgrade Ruby v2.7 tp v3.2 on Vercel
-source "https://rubygems.org"
-ruby "~> 3.2.1"
+ruby "~> 3.1.X"
+
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+
+source ~/.bash_profile
