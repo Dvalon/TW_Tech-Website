@@ -25,5 +25,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'racc', '~> 1.4', '>= 1.4.14'
 
 # upgrade Ruby v2.7 tp v3.2 on Vercel
-ruby "~> 3.1.2"
+ruby "~> 3.1.x"
 
